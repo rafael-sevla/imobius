@@ -1,15 +1,14 @@
 import './App.css'
 import React from 'react'
 import { BrowserRouter as Router } from  'react-router-dom'
+import BaseDashboard from "../components/layouts/BaseDashboard";
 
-import Menu from '../components/layouts/Menu'
-import Content from '../components/layouts/Content'
+
 
 const App = props => (
     <div className="App">
       <Router>
-        <Menu />
-        <Content />
+        <BaseDashboard />
       </Router>
     </div>
 )
